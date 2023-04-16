@@ -18,6 +18,10 @@ public class Item {
         return new Item(id, new ArrayList<>());
     }
 
+    public static Item build(String id, List<Rating> ratings) {
+        return new Item(id, new ArrayList<>(ratings));
+    }
+
     public boolean rate(Rating rating) {
         if (rating.getValue() < 0) {
             return false;

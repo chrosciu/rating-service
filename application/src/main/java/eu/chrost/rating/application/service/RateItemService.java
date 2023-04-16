@@ -7,9 +7,11 @@ import eu.chrost.rating.application.port.out.UpdateItemPort;
 import eu.chrost.rating.domain.Item;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 @Component
 @RequiredArgsConstructor
+@Transactional
 class RateItemService implements RateItemUseCase {
     private final LoadItemPort loadItemPort;
     private final UpdateItemPort updateItemPort;
