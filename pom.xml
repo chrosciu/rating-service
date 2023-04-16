@@ -16,8 +16,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>application</module>
-        <module>web-adapter</module>
-        <module>persistence-adapter</module>
+        <module>adapter-web</module>
+        <module>adapter-persistence</module>
         <module>configuration</module>
         <module>domain</module>
     </modules>
