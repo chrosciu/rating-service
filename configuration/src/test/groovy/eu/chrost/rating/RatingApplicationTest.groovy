@@ -1,8 +1,8 @@
 package eu.chrost.rating
 
-import eu.chrost.rating.application.port.in.ItemSummaryQuery
-import eu.chrost.rating.application.port.in.RateItemCommand
-import eu.chrost.rating.application.port.in.RateItemUseCase
+import eu.chrost.rating.application.port.in.query.ItemSummaryQuery
+import eu.chrost.rating.application.port.in.command.RateItemCommand
+import eu.chrost.rating.application.port.in.command.RateItemUseCase
 import eu.chrost.rating.domain.Rating
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest

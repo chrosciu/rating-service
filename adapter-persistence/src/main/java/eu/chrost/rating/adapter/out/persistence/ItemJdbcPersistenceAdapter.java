@@ -1,6 +1,6 @@
 package eu.chrost.rating.adapter.out.persistence;
 
-import eu.chrost.rating.application.port.in.ItemSummary;
+import eu.chrost.rating.application.port.in.query.ItemSummary;
 import eu.chrost.rating.application.port.out.LoadItemPort;
 import eu.chrost.rating.application.port.out.LoadItemSummaryPort;
 import eu.chrost.rating.application.port.out.UpdateItemPort;

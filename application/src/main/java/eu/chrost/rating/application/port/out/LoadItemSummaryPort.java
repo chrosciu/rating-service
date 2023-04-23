@@ -1,6 +1,6 @@
 package eu.chrost.rating.application.port.out;
 
-import eu.chrost.rating.application.port.in.ItemSummary;
+import eu.chrost.rating.application.port.in.query.ItemSummary;
 
 import java.util.Optional;
 

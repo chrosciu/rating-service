@@ -1,7 +1,7 @@
 package eu.chrost.rating.adapter.in.web;
 
-import eu.chrost.rating.application.port.in.ItemSummary;
-import eu.chrost.rating.application.port.in.ItemSummaryQuery;
+import eu.chrost.rating.application.port.in.query.ItemSummary;
+import eu.chrost.rating.application.port.in.query.ItemSummaryQuery;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

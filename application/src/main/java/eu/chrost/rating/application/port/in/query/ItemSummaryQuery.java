@@ -1,4 +1,4 @@
-package eu.chrost.rating.application.port.in;
+package eu.chrost.rating.application.port.in.query;
 
 import java.util.Optional;
 

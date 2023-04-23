@@ -1,7 +1,7 @@
 package eu.chrost.rating.adapter.in.web;
 
-import eu.chrost.rating.application.port.in.RateItemCommand;
-import eu.chrost.rating.application.port.in.RateItemUseCase;
+import eu.chrost.rating.application.port.in.command.RateItemCommand;
+import eu.chrost.rating.application.port.in.command.RateItemUseCase;
 import eu.chrost.rating.domain.Rating;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PathVariable;

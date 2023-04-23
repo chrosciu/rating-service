@@ -1,7 +1,7 @@
 package eu.chrost.rating.application.service;
 
-import eu.chrost.rating.application.port.in.RateItemCommand;
-import eu.chrost.rating.application.port.in.RateItemUseCase;
+import eu.chrost.rating.application.port.in.command.RateItemCommand;
+import eu.chrost.rating.application.port.in.command.RateItemUseCase;
 import eu.chrost.rating.application.port.out.LoadItemPort;
 import eu.chrost.rating.application.port.out.UpdateItemPort;
 import eu.chrost.rating.domain.Item;

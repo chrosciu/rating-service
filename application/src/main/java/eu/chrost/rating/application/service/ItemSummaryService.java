@@ -1,7 +1,7 @@
 package eu.chrost.rating.application.service;
 
-import eu.chrost.rating.application.port.in.ItemSummary;
-import eu.chrost.rating.application.port.in.ItemSummaryQuery;
+import eu.chrost.rating.application.port.in.query.ItemSummary;
+import eu.chrost.rating.application.port.in.query.ItemSummaryQuery;
 import eu.chrost.rating.application.port.out.LoadItemSummaryPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
